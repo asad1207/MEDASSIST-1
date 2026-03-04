@@ -71,7 +71,7 @@ export default function DashboardPage() {
             <div style={{ fontSize: "1.8rem", marginBottom: 12 }}>👤</div>
             <h3>Health Profile</h3>
             <p>View and update your health information and preferences.</p>
-            <div className="dcm"><span className="dot dg" /> Profile {user?.setupDone ? "complete" : "setup needed"}</div>
+            <div className="dcm"><span className="dot dg" /> Profile </div>
             <button className="dca">View Profile →</button>
           </div>
         </div>
